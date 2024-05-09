@@ -1,0 +1,16 @@
+{
+  "name": "real-vista",
+  "version": "1.0.0",
+  "description": "Landlord Tenant dashboard",
+  "main": "index.js",
+  "scripts": {
+    "dev:backend": "npm install --prefix backend start",
+    "sequelize": "npm run --prefix backend sequelize",
+    "sequelize-cli": "npm run --prefix backend sequelize-cli",
+    "start": "npm start --prefix backend",
+    "build": "npm run --prefix backend build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
